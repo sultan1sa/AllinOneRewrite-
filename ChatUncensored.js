@@ -20,7 +20,7 @@ obj = {
             "expires_at": "9692-12-26T16:30:25.000000+0000",
             "starts_at": null,
             "will_renew": true,
-            "vendor_product_id": "chatai_weekly_3dft_ios_2",
+            "vendor_product_id": "cgptu_799_1w",
             "store": "app_store",
             "activated_at": "2023-12-23T16:30:26.000000+0000",
             "renewed_at": "2023-12-23T16:30:25.000000+0000",
@@ -36,13 +36,13 @@ obj = {
         }
     },
     "subscriptions": {
-        "chatai_weekly_3dft_ios_2": {
+        "cgptu_799_1w": {
             "is_active": true,
             "is_lifetime": true,
             "expires_at": "9692-12-26T16:30:25.000000+0000",
             "starts_at": null,
             "will_renew": true,
-            "vendor_product_id": "xremover.instants.oneYear",
+            "vendor_product_id": "cgptu_799_1w",
             "vendor_transaction_id": "420001719421278",
             "vendor_original_transaction_id": "420001719421278",
             "store": "app_store",
