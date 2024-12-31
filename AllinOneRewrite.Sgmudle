@@ -1,0 +1,16 @@
+#!name=chat Uncensored
+#!desc=Active Premium chat
+
+[Script]
+profiles = type=http-response, pattern=https://api.adapty.io/api/v1/sdk/analytics/profiles, script-path=https://N9dev-dev.github.io/SL/scripts/ADPTY.js, requires-body=true, max-size=131072, script-update-interval=0, timeout=10
+
+mails = type=http-response, pattern=api.qonversion.io/v1/user/init, script-path=https://raw.githubusercontent.com/Heymail12/Hey/main/temp%20mail%2010%20mail, requires-body=true, timeout=20
+
+apphud = type=http-response, pattern=https:\/\/api\.apphud\.com\/v1\/(subscriptions|customers), script-path=https://raw.githubusercontent.com/sultan1sa/AllinOneRewrite-/main/Apphud.js, requires-body=true, script-update-interval=0, timeout=10
+
+mail10 = type=http-response, pattern=api.qonversion.io/v1/user/init, script-path=https://raw.githubusercontent.com/sultan1sa/AllinOneRewrite-/main/10mail.js, requires-body=true, script-update-interval=0, timeout=10
+
+chat Uncensored = type=http-response, pattern=https://api.adapty.io/api/v1/sdk/analytics/profiles, script-path=https://raw.githubusercontent.com/sultan1sa/quanx/refs/heads/main/Rewrite/Script/chatUncensored2, requires-body=true, script-update-interval=0, timeout=10
+
+[MITM]
+hostname = %APPEND% api.adapty.io, api.qapi.qonversion.io, api.apphud.com
